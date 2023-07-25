@@ -6,9 +6,9 @@ print(myfile.read())
 print(":")
 myfile.seek(0)
 print(myfile.read())
-coverLatter=open('C:\\Users\\Yash\\Desktop\\Industrial\\Resume\\Link.txt')
-print(coverLatter.read())
-coverLatter.close()
+# coverLatter=open('C:\\Users\\Yash\\Desktop\\Industrial\\Resume\\Link.txt')
+# print(coverLatter.read())
+# coverLatter.close()
 
 with open('file.txt', mode='a') as f:    # a means append
     f.write('\n  this 4th line')
